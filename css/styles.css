@@ -9,12 +9,14 @@
 nav{
 	width: 100%;
 	margin: auto;
+	background-color:#2655a0;
 }
 
 /* navigation remove underline and bullets*/
 
 nav a{
 	text-decoration: none;
+	color:#fff;
 }
 
 /* navigation spacing and alignment*/
@@ -40,7 +42,7 @@ nav ul li{
 /* style on hover*/
 
 	nav ul li:hover {
-	background-color: #dedede;
+	background-color: #173a4f;
 }
 
 /* navigation hamburger icon*/
@@ -51,7 +53,8 @@ nav ul li{
 	box-sizing: border-box;
 	padding: 15px 10px;
 	cursor: pointer;
-	color: #173a4f;
+	background-color: #173a4f;
+	color:#fff;
 	cursor: pointer;
 	display: none;
 }
@@ -59,11 +62,11 @@ nav ul li{
 /* navigation hamburger icon on hover*/
 
 .handle:hover{
-	background-color: #dedede;
+	background-color: #2655a0;
 }
 
 
-/*mobile and tablet sized screen*/
+/*mobile sized screen*/
 
 @media screen and (max-width: 600px) {
 
